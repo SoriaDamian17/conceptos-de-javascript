@@ -1,6 +1,6 @@
 # Conceptos Sobre Javascript
 
-¿Que es un Closure?
+# ¿Que es un Closure?
 Un closure o clausura es la combinación de una función y el ámbito léxico en el que se declaró dicha función. Es decir los closures o clausuras son funciones que manejan variables independientes. En otras palabras, la función definida en el closure "recuerda" el ámbito en el que se ha creado.
 
 > Ejemplo de Closure
@@ -38,10 +38,10 @@ function strict() {
 export default strict;
 ```
 
-¿Que es el event loop?
+# ¿Que es el event loop?
 El event loop o bucle de eventos es el encargado de mandar a la cola (stack queue) cuando hay una llamada de webApis para poder procesar de manera asincrona los diferentes eventos y que no sea bloqueante, de esta manera javascript es asincrónico y no bloqueante. Esto es gracias al Event Loop.
 
-¿Que son las web Apis?
+# ¿Que son las web Apis?
 Javascript (del lado del cliente en particular) tiene muchas APIs disponibles, estas no son parte del lenguaje Javascript en sí, más bien están construidas sobre Javascript.
 Algo interesante acerca de javascript, o mejor dicho de los runtimes de javascript, es que no cuentan nativamente con cosas como setTimeout, DOM, o HTTP request. Estas son llamadas web apis, que el mismo navegador provee, pero no están dentro del runtime JS.
 
@@ -79,10 +79,10 @@ Algo interesante acerca de javascript, o mejor dicho de los runtimes de javascri
 ```
 
 > Terminos  de Javascript
-Heap
+# Heap
 Los objetos son asignados en un heap el cual sólo es un nombre para denotar una larga y no estructurada región de memoria.
 
-Queue
+# Queue
 Un entorno de ejecución Javascript contiene una cola de mensajes (messages queue), el cual es una lista de mensajes a ser procesados.
 
 Una función está asociada a cada mensaje. Cuando el stack tiene suficiente capacidad, un mensaje es tomado del queue y procesado.
